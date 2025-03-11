@@ -1,17 +1,18 @@
-import 'package:e_commerce_flutter/screens/home/pages/home.dart';
 import 'package:flutter/material.dart';
+import 'screens/home/page/home.dart';
 
 void main() {
-  runApp(const MyEcom());
+  runApp(const FreebeesEcom());
 }
 
-class MyEcom extends StatelessWidget {
-  const MyEcom({super.key});
+class FreebeesEcom extends StatelessWidget {
+  const FreebeesEcom({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Freebies E-Commerce",
+      title: "Freebees E-com",
+      debugShowCheckedModeBanner: false,
       home: Home(),
     );
   }
