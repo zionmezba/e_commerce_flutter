@@ -8,7 +8,7 @@ class FAppBar extends StatelessWidget implements PreferredSizeWidget {
     super.key,
     required this.title,
     required this.firstIcon,
-    this.secondIcon = IonIcons.cart,
+    this.secondIcon = Iconsax.shopping_cart_outline,
     this.backButton = false,
   });
 
