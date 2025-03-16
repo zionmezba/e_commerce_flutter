@@ -46,7 +46,7 @@ class _HomeState extends State<Home> {
       ),
       body: _homeScreens[_currentIndex],
       bottomNavigationBar: FBottomBar(
-        currentIndex: 0,
+        currentIndex: _currentIndex,
         ontapMethod: _onTapMethod,
       ),
     );
