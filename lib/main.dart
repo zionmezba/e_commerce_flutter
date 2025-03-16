@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'screens/home/page/home.dart';
 
-void main() {
+void main() async {
   runApp(const FreebeesEcom());
 }
 
