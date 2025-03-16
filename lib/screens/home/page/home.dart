@@ -31,6 +31,11 @@ class _HomeState extends State<Home> {
       color: Colors.green,
     ),
   ];
+  void _onTapMethod(int index) {
+    setState(() {
+      _currentIndex = index;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -42,6 +47,7 @@ class _HomeState extends State<Home> {
       body: _homeScreens[_currentIndex],
       bottomNavigationBar: FBottomBar(
         currentIndex: 0,
+        ontapMethod: _onTapMethod,
       ),
     );
   }
